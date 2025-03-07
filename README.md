@@ -30,6 +30,15 @@ Additionally, the script provides flexibility for the border colour:
    .\TyporaTrim.ps1 -InputFile <path_to_image> [-BorderColor <hex_colour>]
    ```
 
+## How to Use in Typora
+
+1. In **Preferences** > **Export** select the existing Image export type or create a new custom Image export method
+2. In the **After Export** section, check **Run Command** and enter the following command:
+
+   `pwsh.exe -noprofile [path to your script]\TyporaTrim.ps1 "${outputPath}"`
+
+3. Check the **Show command output** option to show the output of the command. This is useful for checking the script has worked and can be turned off later.
+
 ### Examples
 
 - **Using a specified border colour:**
