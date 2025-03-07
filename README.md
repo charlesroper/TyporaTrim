@@ -18,7 +18,7 @@ Additionally, the script provides flexibility for the border colour:
 
 ## Prerequisites
 
-- **ImageMagick**: Ensure ImageMagick is installed and that the `magick` command is available in your system’s PATH. You can download it from [ImageMagick Downloads](https://imagemagick.org/script/download.php).
+- **ImageMagick**: Ensure ImageMagick is installed and that the `magick` command is available in your system’s PATH. You can download it from [ImageMagick Downloads](https://imagemagick.org/script/download.php) or install using Scoop: `scoop install imagemagick`.
 - **PowerShell**: The script is intended to run in PowerShell (compatible with PowerShell 5.1 and later).
 
 ## How to Use
