@@ -54,16 +54,30 @@ TyporaTrim processes images in two intelligent steps:
 
 ### Steps
 
-1. **Install ImageMagick**  
-   Download from [ImageMagick Downloads](https://imagemagick.org/script/download.php) and ensure `magick` is available in your system's PATH.
+1. **Install ImageMagick**
 
-2. **Clone the repository**
+   Choose one of the following methods:
+
+   **Scoop:**
+   ```powershell
+   scoop install imagemagick
+   ```
+
+   **Winget:**
+   ```powershell
+   winget install ImageMagick.ImageMagick
+   ```
+
+   **Manual Download:**
+   Download from [ImageMagick Downloads](https://imagemagick.org/script/download.php) and ensure `magick` is available in your system's PATH.
+   
+3. **Clone the repository**
    ```powershell
    git clone https://github.com/charlesroper/TyporaTrim.git
    cd TyporaTrim
    ```
 
-3. **Verify ImageMagick installation**
+4. **Verify ImageMagick installation**
    ```powershell
    magick -version
    ```
